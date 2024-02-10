@@ -1,4 +1,7 @@
+
+package ejercicios;
 // //En un almacén, cada que se realiza una venta se elabora un registro con el nombre del articulo,
+
 //  el precio por unidad y la cantidad de
 // artículos vendidos. Suponiendo que se hicieron 5 ventas, elabore un algoritmo que imprima por cada venta
 //  el nombre del articulo y el valor total de la venta. 

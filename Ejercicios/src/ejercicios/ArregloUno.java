@@ -1,3 +1,5 @@
+package ejercicios;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -11,6 +13,7 @@ public class ArregloUno {
                 min = array[i];
             }
         }
+
         System.out.println("El elemento menor del array es: " + min);
     }
 
