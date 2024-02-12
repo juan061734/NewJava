@@ -1,3 +1,5 @@
+package Taller1Java;
+
 import java.util.Scanner;
 
 //9: Búsqueda de Elemento: Escribe un programa que busque la posición

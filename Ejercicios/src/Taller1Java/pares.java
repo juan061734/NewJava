@@ -1,3 +1,5 @@
+package Taller1Java;
+
 public class pares {
     // Contador de Elementos Pares: Escribe un programa que cuente y muestre la
     // cantidad de números pares en un vector.

@@ -1,4 +1,6 @@
+package Taller1Java;
 // 2:  Hacer un programa que pida ingresar 5 números por teclado y
+
 // almacenarlo en un vector con su valor elevado al cuadrado
 
 import java.util.Scanner;

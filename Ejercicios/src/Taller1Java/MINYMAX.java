@@ -1,3 +1,5 @@
+package Taller1Java;
+
 public class MINYMAX {
 
     public static void main(String[] args) {

@@ -1,3 +1,4 @@
+package Taller1Java;
 
 public class promedio {
     // 8: Promedio y Desviación Estándar: Desarrolla un programa que calcule el

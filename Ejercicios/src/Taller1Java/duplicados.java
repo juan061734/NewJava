@@ -1,3 +1,5 @@
+package Taller1Java;
+
 public class duplicados {
     // 7: Eliminación de Duplicados: Crea un programa que elimine los elementos
     // duplicados de un vector.

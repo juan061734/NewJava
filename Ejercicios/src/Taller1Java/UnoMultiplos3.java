@@ -1,3 +1,4 @@
+package Taller1Java;
 
 //1: Hacer un programa que ingrese en un vector
 //de 10 posiciones los múltiplos de 3, se debe imprimir el vector.
