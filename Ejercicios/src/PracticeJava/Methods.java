@@ -112,16 +112,64 @@ public class Methods {
     }
 
     public static void DeleteById() {
+        int option = 0;
         System.out.println("Ingrese el DNI del alumno");
         int dni = entrada.nextInt();
         for (int i = 0; i < alumnos.size(); i++) {
+            if (alumnos.get(i).Getdni() == dni) {
+                System.out.println("Alumno en contrado");
+                System.out.println(alumnos.get(i).Getdni());
+                System.out.println(alumnos.get(i).Getnombre());
+                System.out.println(alumnos.get(i).Getapellido());
+                System.out.println(alumnos.get(i).Getnombre());
+                System.out.println("*****************************************");
+                System.out.println("¿Seguro que quieres Eliminar estos Datos?");
+                System.out.println("1.Si");
+                System.out.println("2.No");
+                option = entrada.nextInt();
+
+            } else if (option == 1) {
+                alumnos.remove(i);
+            } else if (option == 2) {
+                return;
+            } else {
+                System.out.println("Alumno no encontrado");
+            }
 
         }
     }
 
     public static void main(String[] args) {
-        Ingresar();
-        MostrarAlumno();
+        int opcion = 0;
+        do {
+            System.out.println("Bienvenido al menú");
+            System.out.println("Ingresa una opcion ");
+            System.out.println("1.Agregar Alumno");
+            System.out.println("2.Mostras alumnos");
+            System.out.println("3.Buscar alumnos");
+            System.out.println("4.Actualizar datos");
+            System.out.println("5.Eliminar alumno");
+            System.out.println("6.Salir");
+            opcion = entrada.nextInt();
+
+            if (opcion == 1) {
+                Ingresar();
+            } else if (opcion == 2) {
+                MostrarAlumno();
+            } else if (opcion == 3) {
+                BuscarAlumno();
+            } else if (opcion == 4) {
+                ActualizarAlumno();
+            } else if (opcion == 5) {
+                DeleteById();
+            } else if (opcion == 6) {
+                System.out.println("Saliendo del menú");
+            } else {
+                System.out.println("Ingresa una opción valida");
+            }
+
+        } while (opcion != 6);
+
     }
 
 }
