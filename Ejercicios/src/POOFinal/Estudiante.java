@@ -1,3 +1,6 @@
+//Juan pablo palomino guarin
+//23-02-2023
+//ficha  2821728
 package POOFinal;
 
 public class Estudiante {
@@ -29,9 +32,5 @@ public class Estudiante {
         this.email = email;
     }
 
-    // public Estudiante(String identificacion, String nombre, String email) {
-    // this.identificacion = identificacion;
-    // this.nombre = nombre;
-    // this.email = email;
-    // }
+   
 }
